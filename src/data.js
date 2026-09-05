@@ -18,7 +18,7 @@ export const profile = {
   focus:
     '关注 AI × 产品 × 用户体验，探索技术如何转化为真正有价值的用户体验。',
   tags: ['Product Thinking', 'AI Product', 'UX / Interaction'],
-  heroPhoto: '/images/personal/hero-photo.jpg',
+  heroPhoto: 'images/personal/hero-photo.jpg',
   intro:
     '数字媒体技术专业本科生，GPA 3.64/4.0，专业排名前 15%。熟悉产品策划、用户需求分析、交互设计与 AI 辅助开发全流程，参与多项国家级与省级获奖项目，具备从用户洞察、方案设计、原型落地到开发验证的完整实践经验。',
   extra:
@@ -61,12 +61,12 @@ export const about = {
     '我具备设计、技术和产品三个维度的学习背景，希望在 AI 产品岗位中将用户需求、产品体验和技术能力连接起来。',
   moments: [
     {
-      src: '/images/personal/moment-1.jpg',
+      src: 'images/personal/moment-1.jpg',
       ratio: 'r-45',
       caption: '校园日常',
     },
     {
-      src: '/images/personal/moment-2.jpg',
+      src: 'images/personal/moment-2.jpg',
       ratio: 'r-32',
       caption: '学习与生活',
     },
@@ -84,8 +84,8 @@ export const projects = [
     award: '个人产品项目 · 完整 PRD + 高保真原型 + 小程序 Demo',
     roles: ['Product Strategy', 'User Research', 'PRD / Prototype', 'Mini Program Demo'],
     desc: '把「网上好看、现场不知道在哪拍」变成可执行的拍摄方案：参考图 → AI 拍摄方案 → 叠画取景 → 出片对比。',
-    cover: '/images/ai-photo/ai-photo-cover.jpg',
-    thumb: '/images/ai-photo/ai-photo-thumb.jpg',
+    cover: 'images/ai-photo/ai-photo-cover.jpg',
+    thumb: 'images/ai-photo/ai-photo-thumb.jpg',
     links: [
       {
         label: '体验 Demo',
@@ -95,10 +95,10 @@ export const projects = [
     ],
     galleryCols: 4,
     gallery: [
-      { src: '/images/ai-photo/ai-photo-02-login.png', caption: '登录注册' },
-      { src: '/images/ai-photo/ai-photo-04-import.png', caption: '参考图导入' },
-      { src: '/images/ai-photo/ai-photo-06-plan.png', caption: 'AI 方案卡' },
-      { src: '/images/ai-photo/ai-photo-07-camera.png', caption: '叠画取景' },
+      { src: 'images/ai-photo/ai-photo-02-login.png', caption: '登录注册' },
+      { src: 'images/ai-photo/ai-photo-04-import.png', caption: '参考图导入' },
+      { src: 'images/ai-photo/ai-photo-06-plan.png', caption: 'AI 方案卡' },
+      { src: 'images/ai-photo/ai-photo-07-camera.png', caption: '叠画取景' },
     ],
     detail: [
       {
@@ -205,8 +205,8 @@ export const projects = [
     award: '中国大学生计算机设计大赛 · 省级一等奖',
     roles: ['Product Strategy', 'UX / Interaction', 'AI Feature'],
     desc: '通过 AI 试妆、互动体验和数字化内容，重新设计年轻用户了解传统胭脂文化的方式。',
-    cover: '/images/liyige-cover.jpg',
-    thumb: '/images/liyige-thumb.jpg',
+    cover: 'images/liyige-cover.jpg',
+    thumb: 'images/liyige-thumb.jpg',
     detail: [
       {
         no: '01',
@@ -298,13 +298,13 @@ export const projects = [
     award: '个人产品项目 · 完整产品方案',
     roles: ['Product Strategy', 'User Research', 'Interaction Design'],
     desc: '通过 AI 生成个性化旅行方案，把数小时的人工规划缩短为一次对话。',
-    cover: '/images/zhilv-showcase.png',
-    thumb: '/images/zhilv-showcase.png',
+    cover: 'images/zhilv-showcase.png',
+    thumb: 'images/zhilv-showcase.png',
     galleryCols: 3,
     gallery: [
-      { src: '/images/zhilv-prototype.jpg', caption: '原型高保真图' },
-      { src: '/images/zhilv-poster1.jpg', caption: '展示图 1' },
-      { src: '/images/zhilv-poster2.jpg', caption: '展示图 2' },
+      { src: 'images/zhilv-prototype.jpg', caption: '原型高保真图' },
+      { src: 'images/zhilv-poster1.jpg', caption: '展示图 1' },
+      { src: 'images/zhilv-poster2.jpg', caption: '展示图 2' },
     ],
     detail: [
       {
@@ -397,13 +397,13 @@ export const projects = [
     award: '个人产品项目 · 完整 PRD',
     roles: ['AI Product Design', 'Figma', 'Python'],
     desc: '从个人 Python 检测脚本出发，产品化为面向粉丝的演出票务回流智能提醒工具。',
-    cover: '/images/dunpiao-cover.jpg',
-    thumb: '/images/dunpiao-cover.jpg',
+    cover: 'images/dunpiao-cover.jpg',
+    thumb: 'images/dunpiao-cover.jpg',
     gallery: [
-      { src: '/images/dunpiao-1.jpg', caption: '创建监测任务' },
-      { src: '/images/dunpiao-2.jpg', caption: '监测任务列表' },
-      { src: '/images/dunpiao-3.jpg', caption: '回流票提醒' },
-      { src: '/images/dunpiao-4.jpg', caption: '监测详情' },
+      { src: 'images/dunpiao-1.jpg', caption: '创建监测任务' },
+      { src: 'images/dunpiao-2.jpg', caption: '监测任务列表' },
+      { src: 'images/dunpiao-3.jpg', caption: '回流票提醒' },
+      { src: 'images/dunpiao-4.jpg', caption: '监测详情' },
     ],
     detail: [
       {
@@ -498,8 +498,8 @@ export const projects = [
     award: '中国大学生计算机设计大赛 · 省级二等奖',
     roles: ['Product Design', 'Unity', 'AI-assisted Dev'],
     desc: '以 1956 年故宫角楼修缮为背景，让用户以修复工匠身份参与建筑复原。',
-    cover: '/images/guogong-cover.jpg',
-    thumb: '/images/guogong-thumb.jpg',
+    cover: 'images/guogong-cover.jpg',
+    thumb: 'images/guogong-thumb.jpg',
     detail: [
       {
         no: '01',
@@ -587,8 +587,8 @@ export const projects = [
     award: '网络程序设计课程设计 · 自评 96 分',
     roles: ['AI-assisted Development', 'Frontend / Backend'],
     desc: 'Spring Boot + MySQL + Vue 的前后端分离图书管理系统，理解完整开发链路。',
-    cover: '/images/book-cover.jpg',
-    thumb: '/images/book-cover.jpg',
+    cover: 'images/book-cover.jpg',
+    thumb: 'images/book-cover.jpg',
     detail: [
       {
         no: '01',
@@ -646,7 +646,7 @@ export const projects = [
         no: '07',
         key: 'PROTOTYPE',
         title: '产品原型',
-        images: ['/images/book-detail.jpg'],
+        images: ['images/book-detail.jpg'],
         body: ['Vue + Element UI 页面原型；MySQL 用户、图书数据表设计。'],
       },
       {
@@ -816,7 +816,7 @@ export const resume = {
       project: '故宫角楼文化主题视觉设计作品',
     },
   ],
-  resumeFile: '/resume/limengting-resume.docx',
+  resumeFile: 'resume/limengting-resume.docx',
 }
 
 export const navItems = [
