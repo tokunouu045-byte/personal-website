@@ -89,7 +89,7 @@ export const projects = [
     links: [
       {
         label: '体验 Demo',
-        url: 'https://modao.cc/proto/YTdGoImstkh759INqT9efd/sharing?view_mode=device',
+        url: 'https://tokunouu045-byte.github.io/ai-photo-prototype/',
         external: true,
       },
     ],
