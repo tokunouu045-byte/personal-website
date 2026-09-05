@@ -38,11 +38,11 @@
         <span class="edu-label">Jianghan University</span>
       </div>
       <div class="edu-cell">
-        <span class="edu-value">GPA 3.91 / 4.0</span>
+        <span class="edu-value">GPA 3.64 / 4.0</span>
         <span class="edu-label">数字媒体技术</span>
       </div>
       <div class="edu-cell">
-        <span class="edu-value">TOP 30%</span>
+        <span class="edu-value">TOP 15%</span>
         <span class="edu-label">专业排名</span>
       </div>
     </section>

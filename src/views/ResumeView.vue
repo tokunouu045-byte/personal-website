@@ -14,7 +14,7 @@
       <section class="resume-section reveal">
         <p class="rs-title">PROFILE</p>
         <p class="rs-body">
-          数字媒体技术本科生，GPA 3.91/4.0，专业 Top 30%。具备产品策划、用户需求分析、交互设计及 AI 辅助开发实践经验。
+          数字媒体技术本科生，GPA 3.64/4.0，专业 Top 15%。具备产品策划、用户需求分析、交互设计及 AI 辅助开发实践经验。
         </p>
       </section>
 

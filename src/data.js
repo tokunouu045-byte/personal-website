@@ -11,8 +11,8 @@ export const profile = {
   major: '数字媒体技术',
   degree: '数字媒体技术 · 本科',
   period: '2023.09 — 2027.06',
-  gpa: '3.91 / 4.0',
-  rank: 'Top 30%',
+  gpa: '3.64 / 4.0',
+  rank: 'Top 15%',
   location: '湖北 · 武汉',
   positionLine: 'AI 产品设计 / 产品策划 / 交互体验',
   focus:
@@ -20,7 +20,7 @@ export const profile = {
   tags: ['Product Thinking', 'AI Product', 'UX / Interaction'],
   heroPhoto: '/images/personal/hero-photo.jpg',
   intro:
-    '数字媒体技术专业本科生，GPA 3.91/4.0，专业排名前 30%。熟悉产品策划、用户需求分析、交互设计与 AI 辅助开发全流程，参与多项国家级与省级获奖项目，具备从用户洞察、方案设计、原型落地到开发验证的完整实践经验。',
+    '数字媒体技术专业本科生，GPA 3.64/4.0，专业排名前 15%。熟悉产品策划、用户需求分析、交互设计与 AI 辅助开发全流程，参与多项国家级与省级获奖项目，具备从用户洞察、方案设计、原型落地到开发验证的完整实践经验。',
   extra:
     '深度使用 ChatGPT、Gemini、Codex、Claude 等生成式 AI 工具；英语四六级均分 550+；曾任校学生会秘书部副部长，参与大型活动组织。',
   email: '2537920812@qq.com',
@@ -44,8 +44,8 @@ export const about = {
     school: '江汉大学',
     major: '数字媒体技术',
     period: '2023 — 2027',
-    gpa: 'GPA 3.91 / 4.0',
-    rank: '专业 Top 30%',
+    gpa: 'GPA 3.64 / 4.0',
+    rank: '专业 Top 15%',
   },
   focus: {
     no: '02',
@@ -782,8 +782,8 @@ export const resume = {
     school: '江汉大学',
     major: '数字媒体技术',
     period: '2023.09 — 2027.06',
-    gpa: 'GPA 3.91 / 4.0',
-    rank: 'Top 30%',
+    gpa: 'GPA 3.64 / 4.0',
+    rank: 'Top 15%',
     courses:
       '交互设计 · 人工智能概论 · 网页程序设计 · 网站设计与开发 · 数据库技术 · 新媒体营销与运营',
   },
