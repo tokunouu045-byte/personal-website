@@ -4,7 +4,7 @@
       <p class="kicker">06 / CONTACT</p>
       <h1 class="page-title">Let's Talk</h1>
       <p class="page-sub">
-        如果你对 AI 产品、用户体验或创造性技术感兴趣，欢迎联系我。
+        如果你在寻找 AI 产品经理实习生，或者想聊聊 AI 产品、用户体验与创造性技术，欢迎随时联系我。看到消息后我会尽快回复。
       </p>
     </div>
 
@@ -21,14 +21,15 @@
     </div>
 
     <p class="contact-note">
-      GitHub / Portfolio 为占位链接，之后补充后会自动替换。
+      微信添加时请备注“作品集 / 实习”，Email 用于实习与工作邀约。
     </p>
 
     <div class="contact-footer reveal">
       <span class="status-dot"></span>
       <p>
         Looking for<br />
-        <strong>AI Product Internship</strong>
+        <strong>AI Product Internship</strong><br />
+        目前正在寻找 AI 产品经理实习机会，期待与你交流。
       </p>
     </div>
   </div>
@@ -39,9 +40,9 @@ import { profile } from '../data'
 
 const contacts = [
   { label: 'Email', value: profile.email, href: 'mailto:' + profile.email },
+  { label: 'WeChat', value: profile.wechat, href: '#' },
   { label: 'Phone', value: profile.phone, href: 'tel:' + profile.phone },
-  { label: 'GitHub', value: profile.github, href: '#' },
-  { label: 'Portfolio', value: profile.portfolio, href: '#' },
+  { label: 'GitHub', value: profile.github, href: 'https://github.com/tokunouu045-byte' },
 ]
 
 function openLink(c) {

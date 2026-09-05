@@ -25,9 +25,9 @@ export const profile = {
     '深度使用 ChatGPT、Gemini、Codex、Claude 等生成式 AI 工具；英语四六级均分 550+；曾任校学生会秘书部副部长，参与大型活动组织。',
   email: '2537920812@qq.com',
   phone: '13667240212',
-  github: 'github.com/limengting', // 占位，等你补充后替换
+  github: 'github.com/tokunouu045-byte',
   portfolio: 'zcool.com.cn/limengting', // 占位，等你补充后替换
-  wechat: 'limengting-wx', // 占位
+  wechat: 'YoloJu26',
 }
 
 export const stats = [
