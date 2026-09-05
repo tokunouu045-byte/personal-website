@@ -39,6 +39,7 @@
 </template>
 
 <script setup>
+import { onMounted, onBeforeUnmount } from 'vue'
 import { profile } from '../data'
 
 const contacts = [
@@ -54,4 +55,26 @@ function openLink(c) {
     window.location.href = c.href
   }
 }
+
+let observer = null
+
+function setupReveal() {
+  observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible')
+          observer.unobserve(entry.target)
+        }
+      })
+    },
+    { threshold: 0.08 }
+  )
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
+}
+
+onMounted(setupReveal)
+onBeforeUnmount(() => {
+  if (observer) observer.disconnect()
+})
 </script>
