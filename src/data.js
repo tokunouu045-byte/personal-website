@@ -27,6 +27,7 @@ export const profile = {
   phone: '13667240212',
   github: 'github.com/tokunouu045-byte',
   portfolio: 'zcool.com.cn/limengting', // 占位，等你补充后替换
+  website: 'https://tokunouu045-byte.github.io/personal-website/',
   wechat: 'YoloJu26',
 }
 

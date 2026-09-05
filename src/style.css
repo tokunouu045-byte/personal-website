@@ -1350,6 +1350,7 @@ button {
 
 .contact-list a {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding: 20px 4px;
@@ -1368,6 +1369,18 @@ button {
 .contact-label {
   font-size: 12px;
   letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+
+.contact-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.contact-desc {
+  font-size: 12.5px;
   color: var(--text-muted);
 }
 

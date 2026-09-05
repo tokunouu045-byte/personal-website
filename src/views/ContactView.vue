@@ -15,13 +15,16 @@
         :href="c.href"
         @click.prevent="openLink(c)"
       >
-        <span class="contact-label">{{ c.label }}</span>
+        <span class="contact-cell">
+          <span class="contact-label">{{ c.label }}</span>
+          <span class="contact-desc">{{ c.desc }}</span>
+        </span>
         <span class="contact-value">{{ c.value }}</span>
       </a>
     </div>
 
     <p class="contact-note">
-      微信添加时请备注“作品集 / 实习”，Email 用于实习与工作邀约。
+      以上信息均可直接使用；发送邮件或添加微信时请备注来意，我会尽快回复。
     </p>
 
     <div class="contact-footer reveal">
@@ -39,10 +42,11 @@
 import { profile } from '../data'
 
 const contacts = [
-  { label: 'Email', value: profile.email, href: 'mailto:' + profile.email },
-  { label: 'WeChat', value: profile.wechat, href: '#' },
-  { label: 'Phone', value: profile.phone, href: 'tel:' + profile.phone },
-  { label: 'GitHub', value: profile.github, href: 'https://github.com/tokunouu045-byte' },
+  { label: 'Email', value: profile.email, href: 'mailto:' + profile.email, desc: '实习与工作邀约首选' },
+  { label: 'WeChat', value: profile.wechat, href: '#', desc: '备注“作品集 / 实习”更快通过' },
+  { label: 'Phone', value: profile.phone, href: 'tel:' + profile.phone, desc: '工作时间可联系' },
+  { label: 'GitHub', value: profile.github, href: 'https://github.com/tokunouu045-byte', desc: '项目代码与 AI 实验' },
+  { label: '个人网站', value: profile.website, href: profile.website, desc: '作品集与项目全案' },
 ]
 
 function openLink(c) {
